@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form-resrv.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="alentour">
+        <nav class="nav">
+            <div class="nav-logo">
+                <p>AKWABA .</p>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="Index.html" class="lien">Accueil</a></li>
+                    <li><a href="#" class="lien active">reservation</a></li>
+                    <li><a href="#" class="lien ">Compte</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="form-box">
+            <form action="">
+                <div class="regist-container" id="regist">
+                    <div class="top">
+                        <header>Fiche de reservation</header>
+                    </div>
+                    <div class="input-box">
+                        <input type="tel" required minlength="0" maxlength="10" class="input-champ" placeholder="Numero">
+                        <i class="bx bx-user"></i>
+                        <input type="number" required class="input-champ" placeholder="Nombre de personne">
+                        <i class="bx bx-user"></i>
+                    </div>
+                    <div class="input-box">
+                        <input onclick="document.location='confirm-reserv.html'" type="submit" class="submit">
+                    </div>
+                    </div>
+                </div>    
+            </form>
+        </div>
+    </div> 
+</body>
+</html>
